@@ -193,7 +193,7 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 
 .back-deltoids{
@@ -201,7 +201,7 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 
 .upperback{
@@ -209,7 +209,7 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 
 .triceps{
@@ -217,7 +217,7 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 
 .lowerback{
@@ -225,7 +225,10 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    top: 4390px;
+    left: 243px;
+    position: relative;
+    cursor: pointer;
 }
 
 .gluteal{
@@ -233,7 +236,7 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 
 .adductor{
@@ -241,10 +244,10 @@ h1{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    top: 510px;
-    left: 245px;
+    top: 490px;
+    left: 248px;
     position: relative;
-
+    cursor: pointer;
 }
 
 
@@ -254,8 +257,9 @@ h1{
     width: 10px;
     border-radius: 50%;
     top: 510px;
-    left: 295px;
+    left: 299px;
     position: relative;
+    cursor: pointer;
 }
 
 .hamstring2{
@@ -266,6 +270,7 @@ h1{
     top: 540px;
     left: 265px;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -275,8 +280,9 @@ h1{
     width: 10px;
     border-radius: 50%;
     top: 630px;
-    left: 280px;
+    left: 285px;
     position: relative;
+    cursor: pointer;
 }
 
 .calve2{
@@ -286,6 +292,7 @@ h1{
     border-radius: 50%;
     top: 630px;
     left: 310px;
+    cursor: pointer;
     position: relative;
 }
 
@@ -297,6 +304,7 @@ h1{
     top: 450px;
     left: 270px;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -308,6 +316,7 @@ h1{
     top: 370px;
     left: 255px;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -319,6 +328,7 @@ h1{
     top: 320px;
     left: 270px;
     position: relative;
+    cursor: pointer;
 }
 
 .trapezius{
@@ -329,4 +339,77 @@ h1{
     top: 260px;
     left: 260px;
     position: relative;
+    cursor: pointer;
 }
+.modal-content {
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .modal-header .btn-close {
+    background-color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .modal-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #e9ecef;
+    background-color: #f8f9fa;
+    padding: 15px;
+  }
+  
+  .modal-footer .btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .modal-footer .btn-primary:hover {
+    background-color: #218838;
+  }
+  
+  /* Modal Dialog Animation */
+  @keyframes fadeInModal {
+    0% { opacity: 0; transform: translateY(-50px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .modal-dialog {
+    animation: fadeInModal 0.4s ease-out;
+  }
+  
